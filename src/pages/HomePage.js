@@ -23,7 +23,7 @@ const HomePage = () => {
     //get all cat
     const getAllCategory = async () => {
         try {
-        const { data } = await axios.get("/api/v1/category/get-category");
+        const { data } = await axios.get("http://185.233.39.236:8000/api/v1/category/get-category");
         if (data?.success) {
             setCategories(data?.category);
         }
