@@ -1,5 +1,9 @@
 {
   "name": "client",
+<<<<<<< HEAD
+=======
+  "proxy": "http://185.233.39.236:8000",
+>>>>>>> e0f6dbae95a5b291e62756befd996b553911041d
   "version": "0.1.0",
   "private": true,
   "dependencies": {
